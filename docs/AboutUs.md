@@ -31,6 +31,9 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](https://github.com/kimsianglim)]
 [[portfolio](team/johndoe.md)]
 
+* Role: Developer
+* Responsibilities : Testing
+
 ### Liew Yu Le
 
 <img src="images/liewyule.png" width="200px">
@@ -48,35 +51,6 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[portfolio](team/johndoe.md)]
 
 * Role: Team Lead
-* Responsibilities: UI
-
-### Ming You
-
-<img src="images/ming62.png" width="200px">
-
-[[github](http://github.com/ming62)] 
-
-* Role: Developer
-* Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
-
-### James Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
 * Responsibilities: UI
 
 ### Ethan Shum
