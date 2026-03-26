@@ -127,6 +127,8 @@
         "move-an-application-to-the-next-stage-next": "\nMove an application to the next stage: next\n",
         "copy-an-application-url-copy": "\nCopy an application URL: copy\n",
         "give-an-alias-to-a-command-word-alias": "\nGive an alias to a command word: alias\n",
+        "remove-an-alias-for-a-command-word-unalias": "\nRemove an alias for a command word: unalias\n",
+        "list-all-saved-aliases-alias-list": "\nList all saved aliases: alias-list\n",
         "find-applications-find": "\nFind applications: find\n",
         "delete-an-application-delete": "\nDelete an application: delete\n",
         "clear-all-applications-clear": "\nClear all applications: clear\n",
