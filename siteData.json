@@ -131,7 +131,7 @@
         "list-all-saved-aliases-alias-list": "\nList all saved aliases: alias-list\n",
         "find-applications-find": "\nFind applications: find\n",
         "delete-an-application-delete": "\nDelete an application: delete\n",
-        "drop-rejected-or-withdrawn-application-drop": "\nDrop Rejected or Withdrawn application: drop\n",
+        "drop-rejected-or-withdrawn-applications-drop": "\nDrop Rejected or Withdrawn applications: drop\n",
         "clear-all-applications-clear": "\nClear all applications: clear\n",
         "exit-the-program-exit": "\nExit the program: exit\n",
         "saving-and-editing-data": "Saving and Editing Data",
