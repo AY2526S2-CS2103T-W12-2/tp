@@ -62,7 +62,12 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person",
+        "listing-applications": "Listing applications",
+        "deleting-an-application": "Deleting an application",
+        "editing-an-application": "Editing an application",
+        "finding-applications": "Finding applications",
+        "copying-a-url": "Copying a URL",
+        "alias-commands": "Alias commands",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
