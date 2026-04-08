@@ -51,6 +51,11 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
+        "alias-feature-alias-unalias-alias-list": "Alias feature (alias, unalias, alias-list)",
+        "status-progression-feature-next": "Status progression feature (next)",
+        "terminal-cleanup-feature-drop": "Terminal cleanup feature (drop)",
+        "notes-feature-note-and-clearnote": "Notes feature (note and clearnote)",
+        "auto-save-behavior-and-error-handling": "Auto-save behavior and error handling",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
@@ -68,6 +73,8 @@
         "finding-applications": "Finding applications",
         "copying-a-url": "Copying a URL",
         "alias-commands": "Alias commands",
+        "next-and-drop-commands": "Next and drop commands",
+        "notes-commands": "Notes commands",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
