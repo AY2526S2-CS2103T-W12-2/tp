@@ -10,16 +10,10 @@ import static seedu.address.commons.util.AppUtil.checkArgument;
 public class Note {
 
     public static final int MAX_LENGTH = 200;
-    public static final String MESSAGE_LENGTH_CONSTRAINTS =
-            "Note must be at most 200 characters.";
     public static final String MESSAGE_CONSTRAINTS =
-            "Note can only contain English letters, numbers, spaces, "
-                    + "and these symbols: ` ~ ! @ # $ % ^ & * ( ) - _ = + [ { ] } \\ | ; : ' \" , < . > / ?";
+            "Note must be at most 200 characters.";
     public static final String MESSAGE_EMPTY_NOTE =
             "Note cannot be empty.";
-
-    public static final String VALIDATION_REGEX =
-            "[A-Za-z0-9`~!@#$%^&*()\\-_=+\\[\\]{}\\\\|;:'\",<.>/? ]+";
 
     public static final Note EMPTY = new Note("");
 
@@ -32,8 +26,7 @@ public class Note {
      */
     public Note(String note) {
         requireNonNull(note);
-        checkArgument(note.length() <= MAX_LENGTH, MESSAGE_LENGTH_CONSTRAINTS);
-        checkArgument(note.isEmpty() || hasValidCharacters(note), MESSAGE_CONSTRAINTS);
+        checkArgument(isValidNote(note), MESSAGE_CONSTRAINTS);
         value = note;
     }
 
@@ -42,15 +35,7 @@ public class Note {
      */
     public static boolean isValidNote(String test) {
         requireNonNull(test);
-        return test.isEmpty() || (test.length() <= MAX_LENGTH && hasValidCharacters(test));
-    }
-
-    /**
-     * Returns true if a given string contains only valid note characters.
-     */
-    public static boolean hasValidCharacters(String test) {
-        requireNonNull(test);
-        return test.matches(VALIDATION_REGEX);
+        return test.length() <= MAX_LENGTH;
     }
 
     @Override
@@ -64,10 +49,11 @@ public class Note {
             return true;
         }
 
-        if (!(other instanceof Note otherNote)) {
+        if (!(other instanceof Note)) {
             return false;
         }
 
+        Note otherNote = (Note) other;
         return value.equals(otherNote.value);
     }
 
