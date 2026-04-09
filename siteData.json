@@ -142,6 +142,7 @@
         "remove-an-alias-for-a-command-word-unalias": "\nRemove an alias for a command word: unalias\n",
         "list-all-saved-aliases-alias-list": "\nList all saved aliases: alias-list\n",
         "find-applications-find": "\nFind applications: find\n",
+        "clear-an-application-note-clearnote": "\nClear an application note: clearnote\n",
         "delete-an-application-delete": "\nDelete an application: delete\n",
         "drop-rejected-or-withdrawn-applications-drop": "\nDrop Rejected or Withdrawn applications: drop\n",
         "clear-applications-clear": "\nClear applications: clear\n",
