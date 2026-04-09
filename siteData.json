@@ -134,6 +134,7 @@
         "notes-about-the-command-format": "\nNotes about the command format\n",
         "view-help-help": "\nView help: help\n",
         "add-an-application-add": "\nAdd an application: add\n",
+        "add-a-note-to-an-application-note": "\nAdd a note to an application: note\n",
         "list-all-applications-list": "\nList all applications: list\n",
         "edit-an-application-edit": "\nEdit an application: edit\n",
         "move-an-application-to-the-next-stage-next": "\nMove an application to the next stage: next\n",
