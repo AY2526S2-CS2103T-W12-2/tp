@@ -55,6 +55,8 @@
         "status-progression-feature-next": "Status progression feature (next)",
         "terminal-cleanup-feature-drop": "Terminal cleanup feature (drop)",
         "notes-feature-note-and-clearnote": "Notes feature (note and clearnote)",
+        "copy-url-feature-copy": "Copy URL feature (copy)",
+        "find-feature-find": "Find feature (find)",
         "auto-save-behavior-and-error-handling": "Auto-save behavior and error handling",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
